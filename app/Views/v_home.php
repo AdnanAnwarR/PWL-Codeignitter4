@@ -51,5 +51,5 @@
                 </table>
                 <!-- End Table with stripped rows -->
                  <?php echo session("isLogin")==true ? session('email')."</br>":"";?>
-                 <?php echo $content ?>
+                 
 <?= $this->endSection() ?>
